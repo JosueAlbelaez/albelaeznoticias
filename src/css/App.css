@@ -1,0 +1,43 @@
+.estiloencabezado{
+width: 100%;
+background-image:  url("../img-bg.png");
+background-repeat: no-repeat;
+background-attachment:fixed;
+background-position:initial;
+
+}
+
+.logo{
+    max-width: 15rem;
+    max-height: 15rem;
+    border-radius: 50%;
+    
+}
+
+.parrafo{
+   
+    width: 100%;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(25, 18, 100);
+
+}
+
+.form{
+    background-color: rgb(207, 206, 226);
+ 
+}
+
+
+@media (max-width: 768px) {
+    .parrafo {
+        font-size: 1.5rem;
+    }
+    .logo{
+        max-width: 10rem;
+        max-height: 10rem;
+    }
+
+}
+
